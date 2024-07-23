@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 맑은고딕;
+    font-size: 13px;
+    color: #666;
+}
+/* logo S */
+#logo{
+    background-color: rgb(253, 227, 153);
+    height: 80px;
+}
+.logo_center{
+    width: 1180px;
+    padding: 15px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* header S */
+#header{
+     background-color: black;
+    color: rgb(253, 227, 153);
+    height: 47px;
+}
+.nav{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.nav li a{
+    display: block;
+    padding: 15px 10px;
+}
+.nav li a:hover {
+    background-image: url(../images/gnb_on.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+
+}
+/* banner S */
+#banner{
+    background: url(../images/mb.png) no-repeat center;
+    height: 815px;
+}
+/* container1 시작 */
+#container1{
+    width: 1180px;
+    margin: 50px auto;
+    text-align: center;
+}
+#container1 h2{
+    margin: 50px 0;
+}
+.ul_box1{
+    width: 1180px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.img_bg{
+    width: 380px;
+    height: 340px;
+    overflow: hidden;
+    border: 1px solid #666;
+}
+.text_bg{
+    width: 380px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
+ul li .img_bg:hover img{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+/* container2 S */
+#container2{
+    background: url(../images/s1.jpg) no-repeat center;
+    height: 850px;
+    text-align: center;
+    color: white;
+    animation: slidecoffe 20s linear infinite ;
+}
+ @keyframes slidecoffe {
+    o% {
+        background: url(../images/s1.jpg) no-repeat center;
+    }
+    20% {
+        background: url(../images/s2.jpg) no-repeat center;
+    }
+    40% {
+        background: url(../images/s3.jpg) no-repeat center;
+    }
+    60% {
+        background: url(../images/s4.jpg) no-repeat center;
+    }
+    80% {
+        background: url(../images/s5.jpg) no-repeat center;
+    }
+    10o% {
+        background: url(../images/s1.jpg) no-repeat center;
+    }
+ }
+#container2 p{
+    border-top: 1px solid white;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 33px;
+}
+#container2 h2{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+#container4{
+    height: 600px;
+    padding: 100px;
+    width: 1180px;
+    margin: 0 auto;
+}
+/* container5 시작 */
+#container5{
+    background-color: #eee;
+    height: 860px;
+}
+.video_bg{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+/* footer 시작 */
+#footer{
+    background-color: #333;
+    height: 100px;
+}
+.footer_ceter{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px ;
+}
+.footer_ceter p{
+    text-align: right;
+}
